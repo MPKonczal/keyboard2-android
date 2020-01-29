@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="10dp"
+    android:keyWidth="33%p"
+    android:keyHeight="80dp"
+    android:verticalGap="10dp">
+
+    <Row>
+        <Key
+            android:codes="6"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/ic_accessibility_black_24dp" />
+        <Key
+            android:codes="7"
+            android:keyIcon="@drawable/ic_nfc_black_24dp" />
+        <Key
+            android:codes="8"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_mail_outline_black_24dp" />
+    </Row>
+
+    <Row>
+        <Key
+            android:codes="9"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/ic_youtube_searched_for_black_24dp" />
+        <Key
+            android:codes="10"
+            android:keyIcon="@drawable/ic_arrow_back_black_24dp" />
+        <Key
+            android:codes="11"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_arrow_forward_black_24dp" />
+    </Row>
+
+</Keyboard>
